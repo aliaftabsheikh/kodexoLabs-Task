@@ -1,0 +1,11 @@
+.check{
+    // display: grid;
+    // grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    // grid-column-gap: 6rem;
+    // grid-row-gap: 2rem;
+    // place-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
