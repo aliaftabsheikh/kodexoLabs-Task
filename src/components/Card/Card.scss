@@ -9,21 +9,23 @@
   flex-direction: column;
   margin-top: 10px;
 
+
   .app__card{
       display: flex;
       justify-content: flex-end;
-  }
+
+  };
 
   .app__card-image {
     width: 400px;
     height: 300px;
 
-    
     img {
         width: 100%;
         height: 100%;
+        border-radius: 6px;
     }
-}
+};
 
 .app__card-heart {
   position: absolute;
@@ -36,6 +38,36 @@
   img{
       height: 30px;
       margin: 5px 8px 0px 0px;
+  }
+}
+
+.app__card-content{
+  margin: 10px;
+
+  .app__card-details{
+    font-size: 24px;
+    font-weight: 600;
+    color: #2D2D2D;
+    padding-top : 5px;
+  }
+  .app__card-price{
+    font-size: 28px;
+    font-weight: 800;
+    padding-top : 6px;
+
+  }
+  .app__card-address{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top : 3px;
+
+  }
+  .app__card-date{
+    font-size: 16px;
+    font-weight: 500;
+    color: #979797;
+    padding-top : 2px;
+
   }
 }
 }
