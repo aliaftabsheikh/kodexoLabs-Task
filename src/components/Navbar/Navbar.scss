@@ -1,26 +1,21 @@
-*{
-  margin : 0;
-  padding : 0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-
 }
 .app__navbar {
-    width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f4f4f4;
+  position: fixed;
+  z-index: 2;
+
+  .app__navbar-logo {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    padding: 1rem 2rem;
-    background-color: #F4F4F4;
-    position: fixed;
-    z-index: 2;
-
-
-    .app__navbar-logo {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      
-    }
-
   }
-  
+}
